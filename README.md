@@ -1,2 +1,2 @@
 # Covid19-LandingPage
-Laanding page for Covid19
+Landing page for Covid19
