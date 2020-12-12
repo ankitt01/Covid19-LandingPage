@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Covid19 | Home</title>
     <link rel="stylesheet" href="style/style.css">
-    <script src="" defer></script>
+    <script src="script.js" defer></script>
     <script src="https://kit.fontawesome.com/2c3e053901.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -13,10 +13,10 @@
     <div class="hero-container">
         <div class="title-heading">
             <p class="sub-heading">COVID-19 AWARENESS</p>
-            <h1 class="main-heading">Stay Home. Stay Safe.</h1>
-            <p class="desc-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a, nulla incidunt eaque sit praesentium porro consectetur optio!            </p>
+            <h1 class="main-heading"  id="anim" data-delay="0.5s">Stay Home. Stay Safe.</h1>
+            <p class="desc-text" id="anim" data-delay="0s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a, nulla incidunt eaque sit praesentium porro consectetur optio!            </p>
 
-            <button>HOW TO PREVENT</button>
+            <button id="anim" data-delay="0.2s">HOW TO PREVENT</button>
         </div>
         <div class="desc">
             <img src="./img/illustration.png" alt="covid illustration">
@@ -28,20 +28,20 @@
         <p class="stats-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptate!</p>
 
         <div class="stats">
-            <div class="stat">
+            <div class="stat" id="anim" data-delay="0s">
                 <img src="./img/coronavirussvg.svg" alt="">
                 <h1>14,112,077</h1>
-                <p>ACTIVE CASES</p>
+                <p id="anim" data-delay="0.2s">ACTIVE CASES</p>
             </div>
-            <div class="stat">
+            <div class="stat" id="anim" data-delay="0s">
                 <img src="./img/coronavirussvg.svg" alt="">
                 <h1>595,685</h1>
-                <p>DEATHS</p>
+                <p id="anim" data-delay="0.2s">DEATHS</p>
             </div>
-            <div class="stat">
+            <div class="stat" id="anim" data-delay="0s">
                 <img src="./img/coronavirussvg.svg" alt="">
                 <h1>8,397,665</h1>
-                <p>RECOVERED</p>
+                <p id="anim" data-delay="0.2s">RECOVERED</p>
             </div>
         </div>
     </div>
@@ -49,7 +49,7 @@
 
     <div class="about">
         <div class="video">
-            <iframe height="315" src="https://www.youtube.com/embed/sHP0UIdZyI4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <iframe height="315" src="https://www.youtube.com/embed/sHP0UIdZyI4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
         </div>
         <div class="vid-desc">
             <h1>What is Coronavirus?</h1>
@@ -65,31 +65,31 @@
         </div>
     </div>
     <div class="direction">
-        <div class="dir">
+        <div class="dir" id="anim" data-delay="0s">
             <img src="./img/protection.svg" alt="protection">
             <div class="desc">
-                <h3>Protection</h3>
+                <h3 id="anim" data-delay="0.2s">Protection</h3>
                 <p>Lorem ipsum dolor sit.</p>
             </div>
         </div>
-        <div class="dir">
+        <div class="dir" id="anim" data-delay="0s">
             <img src="./img/mask.svg" alt="mask">
             <div class="desc">
-                <h3>Prevention</h3>
+                <h3 id="anim" data-delay="0.2s">Prevention</h3>
                 <p>Lorem ipsum dolor sit.</p>
             </div>
         </div>
-        <div class="dir">
+        <div class="dir" id="anim" data-delay="0s">
             <img src="./img/handwash.svg" alt="Hand-wash">
             <div class="desc">
-                <h3>Treatments</h3>
+                <h3 id="anim" data-delay="0.2s">Treatments</h3>
                 <p>Lorem ipsum dolor sit.</p>
             </div>
         </div>
-        <div class="dir">
+        <div class="dir" id="anim" data-delay="0s">
             <img src="./img/coronavirussvg.svg" alt="corona">
             <div class="desc">
-                <h3>Symptoms</h3>
+                <h3 id="anim" data-delay="0.2s">Symptoms</h3>
                 <p>Lorem ipsum dolor sit.</p>
             </div>
         </div>
@@ -97,40 +97,39 @@
 
     <div class="prevention">
         <div class="cards">
-            <div class="card">
+            <div class="card" id= "anim" data-delay = "0s">
                 <img src="./img/mask.svg" alt="">
                 <div class="card-desc">
-                    <h3>Wear facemask</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                    <h3 id="anim" data-delay = "0.2s">Wear facemask</h3>
+                    <p id="anim" data-delay = "0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
 
                 </div>
             </div>
-            <div class="card">
+            <div class="card" id= "anim" data-delay = "0s">
                 <img src="./img/mask.svg" alt="">
                 <div class="card-desc">
-                    <h3>Wear facemask</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                    <h3 id="anim" data-delay = "0.2s">Wear facemask</h3>
+                    <p id="anim" data-delay = "0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
 
                 </div>
             </div>
-            <div class="card">
+            <div class="card" id= "anim" data-delay = "0s">
                 <img src="./img/mask.svg" alt="">
                 <div class="card-desc">
-                    <h3>Wear facemask</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                    <h3 id="anim" data-delay = "0.2s">Wear facemask</h3>
+                    <p id="anim" data-delay = "0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
 
                 </div>
             </div>
-            <div class="card">
+            <div class="card" id= "anim" data-delay = "0s">
                 <img src="./img/mask.svg" alt="">
                 <div class="card-desc">
-                    <h3>Wear facemask</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
-
+                    <h3 id="anim" data-delay = "0.2s">Wear facemask</h3>
+                    <p id="anim" data-delay = "0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
                 </div>
             </div>
         </div>
-        <div class="prev-desc">
+        <div class="prev-desc" id="anim" data-delay="0s">
             <h1>How to Prevent Coronavirus?</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis doloribus consequatur fugit voluptatum ex rerum perspiciatis cupiditate, esse hic!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, error!</p>
@@ -147,7 +146,7 @@
 
 
     <div class="protection">
-        
+
     </div>
 </body>
 </html>

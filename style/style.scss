@@ -41,6 +41,8 @@ li::before {
 
 }
 
+
+
 //Hero Section
 
 .hero-container {
@@ -165,6 +167,7 @@ li::before {
         border-radius: 12px;
         background-color: #E2D9F3;
         text-align: center;
+        
         .card-desc {
             padding: 1em;
             background-color: #fff;
@@ -173,7 +176,6 @@ li::before {
             color: $paraColor;
         }
     }
-
     .prev-desc {
         padding: 2em;
         
@@ -186,10 +188,21 @@ li::before {
 }
 
 
+#anim {
+    opacity: 0;
+}
 
+@keyframes anim1 {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
 
-
-
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
 @media screen and (min-width:768px) {
     .stats {
