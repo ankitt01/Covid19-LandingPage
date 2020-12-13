@@ -10,13 +10,31 @@
 </head>
 <body>
 
-    <div class="hero-container">
+    <div class="nav-container">
+        <nav>
+            <a href="#" class="logo">Covid.</a>
+            <i class="fas fa-bars ham"></i>
+        </nav>
+            <ul class="nav-links">
+                <i class="fas fa-times close"></i>
+                <li class="link"> <a href="#home">Home</a> </li>
+                
+                <li class="link"><a href="#home">Prevention</a></li>
+                <li class="link"><a href="#symptoms">Symptoms</a></li>
+                <li class="link"><a href="#about">About</a></li>
+                <li class="link"><a href="#home">Blog</a></li>
+                <li class="link"><a href="#home">Contact</a></li>
+            </ul>
+
+    </div> 
+
+    <div class="hero-container" id="home">
         <div class="title-heading">
             <p class="sub-heading">COVID-19 AWARENESS</p>
-            <h1 class="main-heading"  id="anim" data-delay="0.5s">Stay Home. Stay Safe.</h1>
-            <p class="desc-text" id="anim" data-delay="0s">Amid coronavirus outbreak in India, government is encouraging older people and people with severe chronic medical conditions to "stay at home as much as possible."     </p>
+            <h1 class="main-heading" data-direction = "horizontal"  id="anim" data-delay="0.5s">Stay Home. Stay Safe.</h1>
+            <p class="desc-text" data-direction = "horizontal" id="anim" data-delay="0s">Amid coronavirus outbreak in India, government is encouraging older people and people with severe chronic medical conditions to "stay at home as much as possible."     </p>
 
-            <button id="anim" data-delay="0.2s">HOW TO PREVENT</button>
+            <button id="anim" data-delay="0.2s" data-direction = "vertical">HOW TO PREVENT</button>
         </div>
         <div class="desc">
             <img src="./img/illustration.png" alt="covid illustration">
@@ -28,26 +46,26 @@
         <p class="stats-desc">Last update: 12.12.20 14:38 GMT</p>
 
         <div class="stats">
-            <div class="stat" id="anim" data-delay="0s">
+            <div class="stat" id="anim" data-delay="0s" data-direction = "vertical">
                 <img src="./img/coronavirussvg.svg" alt="">
                 <h1>98,32,830</h1>
-                <p id="anim" data-delay="0.2s">INFECTED</p>
+                <p id="anim" data-delay="0.2s" data-direction = "horizontal">INFECTED</p>
             </div>
-            <div class="stat" id="anim" data-delay="0s">
+            <div class="stat" id="anim" data-delay="0s" data-direction = "vertical">
                 <img src="./img/coronavirussvg.svg" alt="">
                 <h1>1,42,749 (1.5%)</h1>
-                <p id="anim" data-delay="0.2s">DEATHS</p>
+                <p id="anim" data-delay="0.2s" data-direction = "horizontal">DEATHS</p>
             </div>
-            <div class="stat" id="anim" data-delay="0s">
+            <div class="stat" id="anim" data-delay="0s" data-direction = "vertical">
                 <img src="./img/coronavirussvg.svg" alt="">
                 <h1>93,31,521 (94.9%)</h1>
-                <p id="anim" data-delay="0.2s">RECOVERED</p>
+                <p id="anim" data-delay="0.2s" data-direction = "horizontal">RECOVERED</p>
             </div>
         </div>
     </div>
     
 
-    <div class="about">
+    <div class="about" id="about">
         <div class="video">
             <iframe height="315" src="https://www.youtube.com/embed/sHP0UIdZyI4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
@@ -60,71 +78,71 @@
         </div>
     </div>
     <div class="direction">
-        <div class="dir" id="anim" data-delay="0s">
+        <div class="dir" id="anim" data-delay="0s" data-direction = "vertical">
             <img src="./img/protection.svg" alt="protection">
             <div class="desc">
-                <h3 id="anim" data-delay="0.2s">Protection</h3>
+                <h3 id="anim" data-delay="0.2s" data-direction = "horizontal">Protection</h3>
                 <p>Wear mask</p>
             </div>
         </div>
-        <div class="dir" id="anim" data-delay="0s">
+        <div class="dir" id="anim" data-delay="0s" data-direction = "vertical">
             <img src="./img/mask.svg" alt="mask">
             <div class="desc">
-                <h3 id="anim" data-delay="0.2s">Prevention</h3>
+                <h3 id="anim" data-delay="0.2s" data-direction = "horizontal">Prevention</h3>
                 <p>Prevent going out unnecessarily</p>
             </div>
         </div>
-        <div class="dir" id="anim" data-delay="0s">
+        <div class="dir" id="anim" data-delay="0s" data-direction = "vertical">
             <img src="./img/handwash.svg" alt="Hand-wash">
             <div class="desc">
-                <h3 id="anim" data-delay="0.2s">Treatments</h3>
+                <h3 id="anim" data-delay="0.2s" data-direction = "horizontal">Treatments</h3>
                 <p>Vaccines awaited</p>
             </div>
         </div>
-        <div class="dir" id="anim" data-delay="0s">
+        <div class="dir" id="anim" data-delay="0s" data-direction = "vertical">
             <img src="./img/coronavirussvg.svg" alt="corona">
             <div class="desc">
-                <h3 id="anim" data-delay="0.2s">Symptoms</h3>
+                <h3 id="anim" data-delay="0.2s" data-direction = "horizontal">Symptoms</h3>
                 <p>Cough, Fever, Body aches</p>
             </div>
         </div>
     </div>
 
-    <div class="prevention">
+    <div class="prevention" id="prevention">
         <div class="cards">
-            <div class="card" id= "anim" data-delay = "0s">
+            <div class="card" id= "anim" data-delay = "0s" data-direction = "vertical">
                 <img src="./img/stayhome.svg" alt="">
                 <div class="card-desc">
-                    <h3 id="anim" data-delay = "0.2s">Stay at home</h3>
-                    <p id="anim" data-delay = "0.4s">Prevent going out unnecessarily. If going out dont forget to wear mask and maintain distance from others.</p>
+                    <h3 id="anim" data-delay = "0.2s" data-direction = "horizontal">Stay at home</h3>
+                    <p id="anim" data-delay = "0.4s" data-direction = "horizontal">Prevent going out unnecessarily. If going out dont forget to wear mask and maintain distance from others.</p>
 
                 </div>
             </div>
-            <div class="card" id= "anim" data-delay = "0s">
+            <div class="card" id= "anim" data-delay = "0s" data-direction = "vertical">
                 <img src="./img/socialdistancing.svg" alt="">
                 <div class="card-desc">
-                    <h3 id="anim" data-delay = "0.2s">Keep social-distancing</h3>
-                    <p id="anim" data-delay = "0.4s">Keep 2m distance from one another and dont come in physical contact to anyone.</p>
+                    <h3 id="anim" data-delay = "0.2s" data-direction = "horizontal">Keep social-distancing</h3>
+                    <p id="anim" data-delay = "0.4s" data-direction = "horizontal">Keep 2m distance from one another and dont come in physical contact to anyone.</p>
 
                 </div>
             </div>
-            <div class="card" id= "anim" data-delay = "0s">
+            <div class="card" id= "anim" data-delay = "0s" data-direction = "vertical">
                 <img src="./img/mask.svg" alt="">
                 <div class="card-desc">
-                    <h3 id="anim" data-delay = "0.2s">Wear facemask</h3>
-                    <p id="anim" data-delay = "0.4s">Mask is a necessity nowadays, wearing it will prevent virus entering your body while breathing in crowd.</p>
+                    <h3 id="anim" data-delay = "0.2s" data-direction = "horizontal">Wear facemask</h3>
+                    <p id="anim" data-delay = "0.4s" data-direction = "horizontal">Mask is a necessity nowadays, wearing it will prevent virus entering your body while breathing in crowd.</p>
 
                 </div>
             </div>
-            <div class="card" id= "anim" data-delay = "0s">
+            <div class="card" id= "anim" data-delay = "0s" data-direction = "vertical">
                 <img src="./img/washhand.svg" alt="">
             <div class="card-desc">
-                    <h3 id="anim" data-delay = "0.2s">Wash your hands</h3>
-                    <p id="anim" data-delay = "0.4s">Hands should be clean and washed frequently in fixed intervals, or after coming into physical contact with anything.</p>
+                    <h3 id="anim" data-delay = "0.2s" data-direction = "horizontal">Wash your hands</h3>
+                    <p id="anim" data-delay = "0.4s" data-direction = "horizontal">Hands should be clean and washed frequently in fixed intervals, or after coming into physical contact with anything.</p>
                 </div>
             </div>
         </div>
-        <div class="prev-desc" id="anim" data-delay="0s">
+        <div class="prev-desc" id="anim" data-delay="0s" data-direction = "horizontal">
             <h1>How to Prevent Coronavirus?</h1>
             <p>Older adults and people who have certain underlying conditions like heart or lung disease or diabetes are at increased risk of severe illness from COVID-19 illness.</p>
             <p>COVID-19 spreads easily from person to person, mainly by the following routes:</p>
@@ -143,9 +161,9 @@
     <div class="protection">
         <div class="head">
             <p class="sub-heading">COVID-19 AWARENESS</p>
-            <h1 class="main-heading"  id="anim" data-delay="0.5s">Stay Home. Stay Safe.</h1>
-            <p class="desc-text" id="anim" data-delay="0s">Amid coronavirus outbreak in India, government is encouraging older people and people with severe chronic medical conditions to "stay at home as much as possible."     </p>
-            <button id="anim" data-delay="0.2s">HOW TO PREVENT</button>
+            <h1 class="main-heading"  id="anim" data-delay="0.5s" data-direction = "horizontal">Stay Home. Stay Safe.</h1>
+            <p class="desc-text" id="anim" data-delay="0s" data-direction = "horizontal">Amid coronavirus outbreak in India, government is encouraging older people and people with severe chronic medical conditions to "stay at home as much as possible."     </p>
+            <button id="anim" data-delay="0.2s" data-direction = "horizontal">HOW TO PREVENT</button>
         </div>
         <div class="details">
             <div class="lists">
@@ -180,39 +198,39 @@
     </div>
 
 
-    <div class="symptoms">
+    <div class="symptoms" id="symptoms">
         <div class="symp-desc">
             <h1>Symptoms of Coronavirus</h1>
             <p>People with COVID-19 have had a wide range of symptoms reported – ranging from mild symptoms to severe illness.</p>
         </div>
 
         <div class="symp-cards">
-            <div class="cards">
+            <div class="cards"  id="anim" data-delay="0s" data-direction = "vertical">
                 <img src="./img/symptom_high-fever.png" alt="">
                 <div class="desc">
-                    <h3>High Fever</h3>
-                    <p>The CDC’s definition of a fever is when an adult has a measured temperature of at least 100.4 °F (38 °C).However, the CDC also mentions that “fever may be considered to be present if a person has not had a temperature measurement but feels warm to the touch, or gives a history of feeling feverish.”</p>
+                    <h3 id="anim" data-delay="0s" data-direction = "horizontal">High Fever</h3>
+                    <p id="anim" data-delay="0s" data-direction = "vertical">The CDC’s definition of a fever is when an adult has a measured temperature of at least 100.4 °F (38 °C).However, the CDC also mentions that “fever may be considered to be present if a person has not had a temperature measurement but feels warm to the touch, or gives a history of feeling feverish.”</p>
                 </div>
             </div>
-            <div class="cards">
+            <div class="cards" id="anim" data-delay="0s" data-direction = "vertical">
                 <img src="./img/symptom_cough.png" alt="">
                 <div class="desc">
-                    <h3>Cough</h3>
-                    <p>Considering that COVID-19 irritates lung tissue, the cough is dry and persistent. It is accompanied with shortness of breath and muscle pain.As disease progresses, the lung tissue is filled with fluid and you may feel even more short of breath as your body struggles to get enough oxygen.</p>
+                    <h3 id="anim" data-delay="0s" data-direction = "horizontal">Cough</h3>
+                    <p id="anim" data-delay="0s" data-direction = "horizontal">Considering that COVID-19 irritates lung tissue, the cough is dry and persistent. It is accompanied with shortness of breath and muscle pain.As disease progresses, the lung tissue is filled with fluid and you may feel even more short of breath as your body struggles to get enough oxygen.</p>
                 </div>
             </div>
-            <div class="cards">
+            <div class="cards" id="anim" data-delay="0s" data-direction = "vertical">
                 <img src="./img/symptom_sore-troath.png" alt="">
                 <div class="desc">
-                    <h3>Soar throat</h3>
-                    <p>A wet cough brings up phlegm from the lower respiratory tract (the lungs and lower airways, as opposed to your nose and throat) into the mouth.</p>
+                    <h3 id="anim" data-delay="0s" data-direction = "horizontal">Soar throat</h3>
+                    <p id="anim" data-delay="0s" data-direction = "horizontal">A wet cough brings up phlegm from the lower respiratory tract (the lungs and lower airways, as opposed to your nose and throat) into the mouth.</p>
                 </div>
             </div>
-            <div class="cards">
+            <div class="cards" id="anim" data-delay="0s" data-direction = "vertical">
                 <img src="./img/symptom_headache.png" alt="">
                 <div class="desc">
-                    <h3>Headache</h3>
-                    <p>A headache is a potential symptom of COVID-19. What point in the infection it typically occurs is still being determined.
+                    <h3 id="anim" data-delay="0s" data-direction = "horizontal">Headache</h3>
+                    <p id="anim" data-delay="0s" data-direction = "horizontal">A headache is a potential symptom of COVID-19. What point in the infection it typically occurs is still being determined.
 
                         To date, a headache has been reportedTrusted Source both early and late in the infection phase, with a later headache possibly being associated with worsening illness.</p>
                 </div>
