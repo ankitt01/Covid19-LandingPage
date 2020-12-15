@@ -384,9 +384,14 @@ nav .ham {
   opacity: 0;
 }
 
+.symptoms .symp-cards .cards .desc p {
+  font-size: 14px;
+}
+
 .symptoms .symp-cards .cards img {
-  width: 100px;
-  height: 170px;
+  margin-right: 10px;
+  width: 20%;
+  height: 150px;
 }
 
 .symptoms .ps {

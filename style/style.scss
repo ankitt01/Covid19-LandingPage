@@ -346,11 +346,16 @@ nav {
                 h3,p {
                     opacity: 0;
                 }
+                p {
+                    font-size: 14px;
+                }
             }
 
             img {
-                width: 100px;
-                height: 170px;
+                margin-right: 10px;
+                width: 20%;
+                // object-fit: cover;
+                height: 150px;
             }
         }
     }
