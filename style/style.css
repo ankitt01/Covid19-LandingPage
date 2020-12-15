@@ -141,16 +141,19 @@ nav .ham {
   font-weight: 800;
   color: #B0A9E5;
   font-size: 14px;
+  opacity: 0;
 }
 
 .hero-container .title-heading .main-heading {
   margin-top: 0;
+  opacity: 0;
 }
 
 .hero-container .title-heading .desc-text {
   color: #7c7c7c;
   max-width: 500px;
   margin: auto;
+  opacity: 0;
 }
 
 .hero-container .desc {
@@ -176,12 +179,20 @@ nav .ham {
   color: #7c7c7c;
 }
 
+.stats-section .stats .stat {
+  opacity: 0;
+}
+
 .stats-section .stats .stat img {
   width: 40px;
 }
 
 .stats-section .stats .stat h1, .stats-section .stats .stat p {
   margin-top: 5px;
+}
+
+.stats-section .stats .stat p {
+  opacity: 0;
 }
 
 .about {
@@ -218,10 +229,12 @@ nav .ham {
   display: flex;
   margin: auto;
   margin-bottom: 20px;
+  opacity: 0;
 }
 
 .direction h3 {
   margin-bottom: 0;
+  opacity: 0;
 }
 
 .direction img {
@@ -254,6 +267,7 @@ nav .ham {
   border-radius: 12px;
   background-color: #E2D9F3;
   text-align: center;
+  opacity: 0;
 }
 
 .prevention .card .card-desc {
@@ -265,8 +279,13 @@ nav .ham {
   height: 60%;
 }
 
+.prevention .card .card-desc h3, .prevention .card .card-desc p {
+  opacity: 0;
+}
+
 .prevention .prev-desc {
   padding: 2em;
+  opacity: 0;
 }
 
 .prevention .prev-desc li::before {
@@ -290,6 +309,10 @@ nav .ham {
   text-align: center;
   line-height: 1.5;
   margin-bottom: 6rem;
+}
+
+.protection .head .sub-heading, .protection .head .main-heading, .protection .head .desc-text, .protection .head button {
+  opacity: 0;
 }
 
 .protection .details {
@@ -354,6 +377,11 @@ nav .ham {
   display: flex;
   background-color: #fff;
   padding: 1em;
+  opacity: 0;
+}
+
+.symptoms .symp-cards .cards .desc h3, .symptoms .symp-cards .cards .desc p {
+  opacity: 0;
 }
 
 .symptoms .symp-cards .cards img {

@@ -127,15 +127,18 @@ nav {
             margin-bottom: 0px;
             font-weight: 800;
             color: $lightAccent;
-            font-size: 14px
+            font-size: 14px;
+            opacity: 0;
         }
         .main-heading {
             margin-top: 0;
+            opacity: 0;
         }
         .desc-text {
             color: $paraColor;
             max-width: 500px;
-            margin: auto
+            margin: auto;
+            opacity: 0;
         }
     
         
@@ -165,12 +168,16 @@ nav {
     .stats {
         .stat {
             // background-color: pink;
+            opacity: 0;
 
             img {
                 width: 40px;
             }
             h1,p {
                 margin-top: 5px;
+            }
+            p {
+                opacity: 0;
             }
             
         }
@@ -204,9 +211,11 @@ nav {
         display: flex;
         margin: auto;
         margin-bottom: 20px;
+        opacity: 0;
     }
     h3 {
         margin-bottom: 0;
+        opacity: 0;
     }
     img {
         width: 40px;
@@ -233,7 +242,8 @@ nav {
         border-radius: 12px;
         background-color: #E2D9F3;
         text-align: center;
-        
+        opacity: 0;
+
         .card-desc {
             padding: 1em;
             background-color: #fff;
@@ -242,10 +252,15 @@ nav {
             color: $paraColor;
             height: 60%;
 
+            h3,p {
+                opacity: 0;
+            }
+
         }
     }
     .prev-desc {
         padding: 2em;
+        opacity: 0;
         
     li::before {
         content: '\f058';
@@ -268,6 +283,9 @@ nav {
         text-align: center;
         line-height: 1.5;
         margin-bottom: 6rem;
+        .sub-heading,.main-heading,.desc-text, button {
+            opacity: 0;
+        }
     }
 
     .details {
@@ -321,6 +339,14 @@ nav {
             display: flex;
             background-color: #fff;
             padding: 1em;
+            opacity: 0;
+
+            .desc {
+
+                h3,p {
+                    opacity: 0;
+                }
+            }
 
             img {
                 width: 100px;
