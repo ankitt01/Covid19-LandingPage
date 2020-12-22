@@ -3,9 +3,9 @@ const cards = document.querySelectorAll('#anim');
 var observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if(entry.intersectionRatio > 0 && entry.target.dataset.direction === 'vertical'){
-        entry.target.style.animation = `animvertical 1s ${entry.target.dataset.delay} forwards ease-out`;
+        entry.target.style.animation = `animvertical 500ms ${entry.target.dataset.delay} forwards ease-out`;
     } else if(entry.intersectionRatio > 0 && entry.target.dataset.direction === 'horizontal'){
-        entry.target.style.animation = `animhorizontal 1s ${entry.target.dataset.delay} forwards ease-out`;
+        entry.target.style.animation = `animhorizontal 500ms ${entry.target.dataset.delay} forwards ease-out`;
     }
     else {
         entry.target.style.animation = 'none';
