@@ -57,6 +57,7 @@ observer1.observe(hero);
 const totalCases = document.getElementById('total-cases')
 const deaths = document.getElementById('deaths')
 const recovered = document.getElementById('recovered')
+const stats = document.querySelector('.stats-desc')
 
 fetch('https://api.covid19api.com/summary')        
         .then((res) => {
@@ -67,4 +68,5 @@ fetch('https://api.covid19api.com/summary')
             totalCases.textContent = `${data.Countries[76].TotalConfirmed}`
             deaths.textContent =  `${data.Countries[76].TotalDeaths}`
             recovered.textContent = `${data.Countries[76].TotalRecovered}`
+            stats.textContent = `${data.Countries[76].Date}`
         })
